@@ -9,7 +9,7 @@
 
 ## 인스턴스 필드와 정적 필드
 - 각 필드의 저장 위치
-![img_1.png](img_1.png)
+![img_1.png](img/static2.png)
 - 활용 방법
 ```java
     class A {
@@ -34,7 +34,7 @@
 ```
 
 ### '정적 필드는 객체 간 공유 변수의 성질이 있다.'
-![img.png](img.png)
+![img.png](img/static1.png)
 ```java
 A a1 = new A();
 A a2 = new A();
@@ -67,7 +67,7 @@ class A {
     }
 }
 ```
-![img_2.png](img_2.png)
+![img_2.png](img/static3.png)
 ### 인스턴스 필드와 정적 필드의 다른 점
 - 인스턴스 메서드와 정적 메서드는 모두 메모리의 첫 번째 영역에 위치한다.
 - 차이점 : 인스턴스 메서드는 인스턴스 메서드 영역, 정적 메서드는 클래스 내부에 존재한다.
