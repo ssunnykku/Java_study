@@ -64,7 +64,7 @@ class A {
 A a = new A();
 ```
 - 객체 생성시 final 필드는 final 영역에 복사된다.
-![img.png](img.png)
+![img.png](img/final1.png)
 ```java
 class B {
     void bcd() {
@@ -78,7 +78,7 @@ B b = new B();
 b.bcd();
 ```
 - Stack 메모리에 final 지역변수 초기화시 final 영역에 복사
-![img_2.png](img_2.png)
+![img_2.png](img/final2.png)
 
 - 값이 들어가는 순간 처음 한번(선언되거나 호출되는 순간) 복사가 된다.
 - 상수 영역으로 값이 복사 되는 순간 이후로 절대로 값을 바꿀 수 없다.
