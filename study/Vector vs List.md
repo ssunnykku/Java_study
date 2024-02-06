@@ -8,9 +8,13 @@
 - ArrayList<E>와 달리 Vector<E>의 주요 메서드는 동기화 메서드로 구현되어 있으므로 멀티 쓰레드에 적합하도록 설계되어 있다.
 
     ```java
-    public synchronized E remove (int indexP { //... }
+    public synchronized E remove (int index) { 
+  //... 
+   }
     
-    public synchronized E get (int index) { // ... }
+    public synchronized E get (int index) { 
+  // ... 
+  }
     ```
 
 - 동기화 메서드는 하나의 공유 객체를 2개의 쓰레드가 동시에 사용할 수 없도록 만든 메서드이다.
